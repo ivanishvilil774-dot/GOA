@@ -1,0 +1,120 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Relative */
+.relative-box {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #00d181;
+    margin: 40px;
+    padding: 20px;
+    border: 2px solid #218c7f;
+}
+
+/* Absolute */
+.absolute-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ffcaca;
+    padding: 10px;
+    border: 1px solid rgb(128, 11, 192);
+}
+
+/* Fixed */
+.fixed-box {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #caffca;
+    padding: 10px;
+    border: 1px solid green;
+    z-index: 1000;
+}
+
+/* Sticky */
+.sticky-box {
+    position: sticky;
+    top: 0;
+    background-color: #ffecb3;
+    padding: 10px;
+    border: 1px solid orange;
+    z-index: 999;
+}
+
+/* დამატებითი სტილები */
+.spacer {
+    height: 1000px;
+    background-color: #f0f0f0;
+}
+
+.content {
+    height: 1500px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* homework 2 */
+
+
+/* 
+position: static 
+👉 ელემენტები განლაგებულია დოკუმენტის ნაკადში მათი ჩვეული წესით.
+*/
+.default-box {
+    position: static; 
+}
+
+/*
+position: relative 
+👉 ელემენტი ინარჩუნებს თავის ჩვეულ ადგილს, მაგრამ შეგვიძლია გადავწიოთ top/right/bottom/left-ით.
+*/
+.relative-box {
+    position: relative;
+    top: 10px; 
+}
+
+/*
+position: absolute
+    ელემენტი მთლიანად გამოეყოფა დოკუმენტის ნაკადს და განლაგდება უახლოესი `relative`, `absolute`, ან `fixed` მშობლის მიმართ.
+*/
+.absolute-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*
+position: fixed
+    ელემენტი ფიქსირდება ეკრანზე და რჩება ერთ ადგილას სკროლის დროსაც.
+*/
+.fixed-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/*
+position: sticky
+    ელემენტი რჩება ჩვეულებრივ დოკუმენტში მანამ, სანამ მისთვის მითითებული top/left/right/bottom-მდე არ მივა.
+*/
+.sticky-box {
+    position: sticky;
+    top: 0;
+}

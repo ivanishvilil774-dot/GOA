@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    transition: background-color 0.5s; /* smooth background change */
+    padding: 50px;
+    color: #fff;
+}
+
+/* Coin flip result */
+#resuolt {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Flip button */
+#flipbtn {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    border: black 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #333;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+#flipbtn:hover {
+    transform: scale(1.1);
+    background-color: #eee;
+}
+
+/* Date and random number */
+#datetime, #randomNumber {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+/* Responsive for mobile */
+@media(max-width: 600px){
+    #resuolt { font-size: 2rem; }
+    #flipbtn { font-size: 1.2rem; padding: 10px 20px; }
+    #datetime, #randomNumber { font-size: 1.2rem; }
+}

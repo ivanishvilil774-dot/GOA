@@ -1,0 +1,6 @@
+ul {
+    text-align: center;             /* Centers the text content of the list items horizontally */
+    list-style-type: disc;         /* Uses solid circle bullets (default style) */
+    list-style-position: inside;   /* Places bullets inside the list item box */
+    color: red;                    /* Sets the text color of list items to red */
+}

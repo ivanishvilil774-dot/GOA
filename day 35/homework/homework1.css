@@ -1,0 +1,70 @@
+/* Apply margin to all elements on the page */
+* {
+    margin: 40px;
+}
+
+
+/* Styles for the first box: "About me" */
+.myClass1 {
+    border: 3px solid rgb(231, 112, 112); /* Red border */
+    width: 300px;                         /* Fixed width */
+    height: 300px;                        /* Fixed height */
+    text-align: center;                   /* Center text horizontally */
+    box-shadow: 5px 2px 40px 1px;         /* Shadow effect around the box */
+    background-image: url(img/aboutme.png); /* Background image */
+    background-position: center;          /* Center the background image */
+    background-repeat: no-repeat;         /* Prevent image repetition */
+    background-size: cover;               /* Make image cover the entire box */
+}
+
+/* Styles for the heading inside myClass1 */
+.myClass1 h1 {
+    background-color: rgba(0, 0, 0, 0.301); /* Semi-transparent black background */
+    width: 100%;                            /* Fill entire width of parent */
+    height: 100%;                           /* Fill entire height of parent */
+    margin: 0px;                            /* Remove default margin */
+    color: rgb(255, 255, 255);              /* White text */
+}
+
+
+/* Styles for the second box: "My hobbies" */
+.myClass2 {
+    border: 3px solid rgb(231, 112, 112);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 5px 2px 40px 1px;
+    background-image: url(img/book.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Styles for the heading inside myClass2 */
+.myClass2 h1 {
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+}
+
+
+/* Styles for the third box: "My favorite sport" */
+.myClass3 {
+    border: 3px solid rgb(231, 112, 112);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 5px 2px 40px 1px;
+    background-image: url(img/chess.jpg);
+    background-size: cover;
+}
+
+/* Styles for the heading inside myClass3 */
+.myClass3 h1 {
+    background-color: rgba(0, 0, 0, 0.301);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+body {
+    background: linear-gradient(to bottom, #040918, #091540);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps gradient fixed on scroll */
+    background-size: cover;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.search-box{
+    display: flex;
+    position: relative;
+    padding-top: 30px;
+
+}
+#logo{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+input{
+    height: 70px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: hsl(226, 25%, 17%);
+    border: none;
+}
+
+header{
+    width: 900px;
+}
+
+.filters{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#ss{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.secondpart{
+    margin: 10px;
+}
+
+.btn{
+    background-color:  hsl(226, 25%, 17%);
+    width: 60px;
+    border-radius: 20px;
+    height: 30px;
+    border: none;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: hsl(3, 86%, 64%);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 20px; /* Space between cards */
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height:  200px; /* Make cards equal height */
+  width: 350px;
+  border-radius: 30px;
+  background-color: hsl(226, 25%, 17%);
+}
+.card p{
+    color: rgb(199, 198, 195);
+}
+
+.card h3{
+    color: white;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+  margin-top: auto; /* Push footer to bottom */
+}
+.bodyy{
+    display: flex;
+    padding: 10px;
+}
+
+.dd{
+    margin-left: 5px;
+
+}
+
+.remove-btn{
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+.card-footer button{
+    height: 40px;
+    width: 70px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    color: white;
+}

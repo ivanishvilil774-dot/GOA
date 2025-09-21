@@ -1,0 +1,29 @@
+h1 {
+    color: darkblue;
+    font-size: 36px;
+}
+
+.p1 {
+    color: red;
+    font-size: 16px;
+}
+
+.p2 {
+    color: green;
+    font-size: 18px;
+}
+
+.p3 {
+    color: orange;
+    font-size: 20px;
+}
+
+.p4 {
+    color: purple;
+    font-size: 22px;
+}
+
+.p5 {
+    color: brown;
+    font-size: 24px;
+}

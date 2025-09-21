@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(67, 231, 30) , rgb(255, 255, 225));
+}
+header{
+    background-color: rgb(255, 255, 255 );
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px;
+    color: aqua;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+.myH1{
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 150px;
+}
+
+.read-more{
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    width: 200px;
+    border: none;
+    border-radius: 4px;
+}

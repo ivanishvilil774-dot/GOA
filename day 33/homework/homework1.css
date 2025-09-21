@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color: #E178C5;
+    font-family: "Cal Sans", sans-serif;
+}
+
+.myH1{
+    width: 100px;
+    text-align: center;
+    font-family: "Playwrite DK Loopet";
+}
+
+.about-Switzerland{
+    border:2px,#000000, solid;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    background-color: #FA4032;
+}
+
+img{
+    width: px;
+}

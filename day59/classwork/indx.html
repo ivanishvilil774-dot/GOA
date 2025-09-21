@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document Direction Example</title>
+
+</head>
+<body>
+
+
+<p>default</p>
+
+
+<button onclick="toggleDirection()">Toggle Text Directio=n</button>
+
+<script>
+    const paragraphElement = document.querySelector("p");
+
+
+    paragraphElement.textContent = "updated.";
+    paragraphElement.style.backgroundColor = "lightgreen";
+    paragraphElement.id = "dirParagraph";
+    paragraphElement.className = "highlight";
+
+</script>
+
+<script src="script.js"> </script>
+
+</body>
+</html>

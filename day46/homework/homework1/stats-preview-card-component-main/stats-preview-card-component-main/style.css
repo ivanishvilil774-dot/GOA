@@ -1,0 +1,58 @@
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: hsl(233, 47%, 7%);
+      color: hsl(0, 0%, 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background-color: hsl(244, 38%, 16%);
+      border-radius: 10px;
+      overflow: hidden;
+      width: 1110px;
+      max-width: 100%;
+    }
+    .content {
+      padding: 60px;
+    }
+    .content h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    .content h1 span {
+      color: hsl(277, 64%, 61%);
+    }
+    .content p {
+      font-size: 15px;
+      font-weight: 400;
+      font-family: 'Lexend Deca', sans-serif;
+      color: hsla(0, 0%, 100%, 0.75);
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+    .stats {
+      display: flex;
+      gap: 60px;
+    }
+    .stat {
+      font-size: 15px;
+      font-family: 'Lexend Deca', sans-serif;
+      color: hsla(0, 0%, 100%, 0.6);
+    }
+    .stat b {
+      font-size: 22px;
+      font-weight: 700;
+      color: hsl(0, 0%, 100%);
+      display: block;
+      margin-bottom: 5px;
+    }
+    .image {
+      background: url('https://via.placeholder.com/500x400/8a2be2/ffffff?text=Office+Image') no-repeat center center;
+      background-size: cover;
+      filter: grayscale(100%) sepia(100%) hue-rotate(250deg) brightness(0.8);
+    }

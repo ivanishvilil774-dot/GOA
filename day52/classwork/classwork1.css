@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+#div1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    animation-name: colorcange;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+
+@keyframes colorcange{
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: green;
+    }
+    100%{
+        background-color: black;
+    }
+}
+
+/* animation-name არის ანიმაციის სახხელი რომელსაც ვიენებთ keyframes ში */
+
+/* animation-duration რამდე ხანი გაგრძელდება ანიმაცია */
+
+/* animation-delay რამდენი ხნში დაიწება ანიმაცია */

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.paragraph1{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color:green;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+}
+
+a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color:black;
+}
+
+h1{
+    color:black;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+body{
+    background-color: #D4FCC8;
+}
+
+.mainInfo{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+}
+
+.paragraph2{
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color: rgb(33, 86, 33);
+    width:200px;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    color:white;
+}
+.serviceDIV {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.service-list {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+.Contact {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactDIV {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    text-align: center;
+}

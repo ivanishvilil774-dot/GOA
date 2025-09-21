@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+
+.container {
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-div{
+    width: 400px;
+    height: 360px;
+    margin: 0px;
+    margin-top: 0px;
+    box-shadow: 10px 1px 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+form{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    height: 300px
+}
+
+.logIn{
+    text-align: center;
+    background-color: rgb(4, 217, 245);
+}
+
+h1{
+    margin: 0px;
+    padding: 10px;
+}
+
+.login-from{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px; 
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+input{
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    align-content: center;
+    border: 1px solid black;
+    padding-left: 20px;
+}
+label{
+    padding-bottom: 10px;
+    display: flex;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(4, 217, 245);
+    font-weight: 500;
+
+}
+
+.subbtn{
+    padding-top: 10px;
+    padding-bottom:  40px;
+}
+
+button:hover{
+    background-color: rgb(43, 230, 255);
+    transition: 0.4s;
+}

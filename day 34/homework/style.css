@@ -1,0 +1,31 @@
+/* /* ფონტების იმპორტი Google Fonts-იდან: */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* სტილი ელემენტისთვის კლასით "Did-you-know" */
+.Did-you-know {
+    border: 5px solid red;         /* წითელი საზღვარი, 5 პიქსელი სისქით */
+    background-color: black;       /* შავი ფონის ფერი */
+    color: white;                  /* თეთრი ტექსტის ფერი (გადაფარავს ნაგულისხმევს) */
+    font-family: "Roboto" sans-serif; /* Roboto ფონტის გამოყენება */
+    margin: 10px 0px 0px 0px;      /* ზემოდან 10px ზღვარი, დანარჩენ მხარეს 0px */
+    width: 300px;                  /* კონტეინერის სიგანე */
+    height: 300px;                 /* კონტეინერის სიმაღლე */
+    padding: 40px;                 /* შიდა ზღვარი კონტენტის გარშემო */
+}
+
+/* სტილი ელემენტისთვის კლასით "todays-featured" */
+.todays-featured {
+    border: 3px solid blue;        /* ლურჯი საზღვარი, 3 პიქსელი სისქით */
+    background-color: rebeccapurple; /* ფონის ფერი სახელად 'rebeccapurple' */
+    color: aliceblue;              /* ტექსტის ფერი 'aliceblue' */
+    font-family: "Roboto" sans-serif; /* Roboto ფონტი */
+    margin: 10px 0px 0px 0px;      /* იგივე ზღვარი რაც ზემოთ */
+    width: 300px;                  /* იგივე სიგანე */
+    height: 400px;                 /* უფრო მაღალი კონტეინერი */
+    padding: 40px;                 /* იგივე შიდა ზღვარი */
+}
+
+/* სტილი ყველა <p> ელემენტისთვის (პარაგრაფისთვის) */
+p {
+    color: aquamarine;             /* ტექსტის ფერი – aquamarine */
+}

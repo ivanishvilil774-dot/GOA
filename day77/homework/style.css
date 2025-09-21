@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+h1{
+    font-size: 60px
+}
+
+.conteiner{
+    display: flex;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    height: 550px;
+}
+.mainconteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightside{
+    padding: 40px;
+    height: 100%;
+
+}
+.rightside h1{
+    margin-bottom: 20px;
+
+}
+
+
+
+.chekss{
+    display: flex;
+    gap: 10px;
+}
+.lists{
+    margin-top: 30px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form label{
+    margin-right: 300px;
+}
+
+form button{
+    margin-top: 20px;
+    height: 60px;
+    width: 400px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsl(4, 100%, 67%);
+}
+
+button:hover{
+    background-color: red;
+}
+
+
+#conteiner2 {
+    display: none; /* დასაწყისში დამალული */
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 400px;
+    text-align: left;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-self: center;
+    margin-top: 200px;
+}
+
+#conteiner2 .information img {
+    width: 40px;
+    height: 40px;
+    background-color: hsl(4, 100%, 67%);
+    border-radius: 50%;
+    padding: 8px;
+}
+
+#conteiner2 h3 {
+    font-size: 32px;
+    margin: 20px 0 10px;
+    color: hsl(234, 29%, 20%);
+}
+
+#conteiner2 p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: hsl(235, 18%, 26%);
+}
+
+#conteiner2 button {
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(90deg, hsl(4, 100%, 67%), hsl(14, 100%, 61%));
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(255, 98, 87, 0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#conteiner2 button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 20px rgba(255, 98, 87, 0.6);
+}
+
+#btn{
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(90deg, hsl(4, 100%, 67%), hsl(14, 100%, 61%));
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(255, 98, 87, 0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.info{
+    display: flex;
+}
+
+/* error მდგომარეობა */
+input.error {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}
+
+#inforFalce {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+}
+
+.info{
+    flex-direction: column;
+    display: flex;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 1 -->
+    <div id="datetime"></div>
+    <br><br><br><br> 
+    <!-- 2 -->
+    <button id="flip">🎲 აგდე კუბიკი</button>
+    <p id="diceResult"></p>
+    <br><br><br><br>
+    <!-- 3 -->
+    <button id="fruit">chois fruit</button>
+    <p id="fruitsresult"></p>
+    <br><br><br><br>
+    <!-- 4 -->
+    <button id="paswordBTn">generate Pasword</button>
+    <p id="paswordresult"></p>
+    <!-- 5 -->
+    <div>მიმდინარე თვე: <span id="month"></span></div>
+    <div>კვირის დღე: <span id="weekday"></span></div>
+    <br><br><br><br>
+
+    <!-- 6 -->
+    <label for="birthday">შეიყვანე დაბადების დღე (MM-DD):</label>
+    <input type="text" id="birthday" placeholder="მაგ: 09-21">
+    <button onclick="daysUntilBirthday()">გამოთვლა 🎂</button>
+    <p id="result"></p>
+    <br><br><br><br>
+    <!-- 7 -->
+
+    <button id="timeBtn">დაკლიკე</button>
+    <p id="timeResult"></p>
+    <br><br><br><br>
+    <!-- 8 -->
+
+    <button id="colorBtn">შემთხვევითი ფერი 🎨</button>
+    <div id="colorBox" style="width:200px; height:100px; margin-top:10px;"></div>
+    <script src="script.js"></script>
+</body>
+</html>

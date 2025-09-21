@@ -1,0 +1,29 @@
+
+.flex{
+  display: flex; /* Flexbox მოდელის გააქტიურება */
+  flex-wrap: wrap; /* თუ არ დაეტევა, ახვევს შემდეგ ხაზზე */
+  gap: 10px; /* ელემენტებს შორის დაშორება */
+  justify-content: center; /* ელემენტების ჰორიზონტალური ცენტრი */
+  margin-bottom: 40px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  color: white;
+  display: flex;
+  align-items: center;   /* ვერტიკალური ცენტრი ტექსტისთვის */
+  justify-content: center; /* ჰორიზონტალური ცენტრი ტექსტისთვის */
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+/* აქ ვიყენებთ column განლაგებას*/
+.column- {
+  display: flex;
+  flex-direction: column; /* ელემენტები განლაგდებიან სვეტად */
+  gap: 15px;
+  align-items: flex-start; /* მარცხენა განლაგება */
+  padding: 10px;
+}

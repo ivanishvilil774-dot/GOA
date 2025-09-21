@@ -1,0 +1,116 @@
+    body {
+      background-color: hsl(221, 100%, 96%);
+      font-family: 'Hanken Grotesk', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background-color: white;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      width: 600px;
+      display: flex;
+      overflow: hidden;
+    }
+    .left {
+      background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+      color: white;
+      padding: 40px 20px;
+      width: 50%;
+      text-align: center;
+    }
+    .left h3 {
+      color: hsl(241, 100%, 89%);
+      font-size: 18px;
+    }
+    .left h2 {
+      font-size: 28px;
+      margin: 10px 0;
+    }
+    .left p {
+      font-size: 14px;
+      color: hsl(241, 100%, 89%);
+    }
+    .circle {
+      width: 120px;
+      height: 120px;
+      background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      font-weight: 800;
+      margin: 20px auto;
+      flex-direction: column;
+    }
+    .circle span {
+      font-size: 14px;
+      font-weight: 500;
+      color: hsl(241, 100%, 89%);
+    }
+    .right {
+      padding: 30px;
+      width: 50%;
+    }
+    .right h3 {
+      margin-bottom: 20px;
+      font-size: 18px;
+      color: hsl(224, 30%, 27%);
+    }
+    .item {
+      margin-bottom: 10px;
+      padding: 12px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .item:nth-of-type(1) {
+      background-color: hsla(0, 100%, 67%, 0.1);
+      color: hsl(0, 100%, 67%);
+    }
+    .item:nth-of-type(2) {
+      background-color: hsla(39, 100%, 56%, 0.1);
+      color: hsl(39, 100%, 56%);
+    }
+    .item:nth-of-type(3) {
+      background-color: hsla(166, 100%, 37%, 0.1);
+      color: hsl(166, 100%, 37%);
+    }
+    .item:nth-of-type(4) {
+      background-color: hsla(234, 85%, 45%, 0.1);
+      color: hsl(234, 85%, 45%);
+    }
+    .item img {
+      width: 20px;
+      height: 20px;
+    }
+    .button {
+      background: hsl(224, 30%, 27%);
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 25px;
+      font-weight: 700;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+
+#Reaction{
+    color: black;
+    margin-left: 50px;
+}
+
+
+l{
+    color: rgb(111, 108, 108);
+}

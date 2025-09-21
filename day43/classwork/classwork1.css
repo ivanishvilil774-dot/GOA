@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');  /*  ფონტის ჩატვირთვა */
+
+* {
+    padding: 0px;               /*ვუწერთ პადინგ 0 */
+    margin: 0px;                /* ვუწერთ მარგინს 0*/
+    box-sizing: border-box;     /*padding და border ჩასმულია */
+    font-family: "Karla", sans-serif;  /* Karla ფონტი ყველასთ*/
+}
+
+body {
+    height: 100vh;              /* ეკრანის მთლიანი სიმაღლე */
+    display: flex;              /* flex კონტეინერი */
+    flex-direction: column;     /* ზემოდან ქვემოთ */
+    justify-content: center;    /* ვერტიკალურად ცენტრში */
+    align-items: center;        /* ჰორიზონტალურად ცენტრში */
+    background-color: hsl(204, 43%, 93%);  
+}
+
+.mainDiv {
+    border-radius: 5px;         /* კუთხეებს ვამრგვაებთ */
+    overflow: hidden;           /* გადმოსული შიგთავსის დამალვა */
+}
+
+.firstDiv {
+    background-color: white;    /* თეთრი ფონი */
+    height: 200px;              /* სიმაღლე 200px */
+    padding: 30px;              /* შიდა ჰარე */
+}
+
+.paragraph1 {
+    color: #26a8a6;             /* მწვანე-ლურჯი ფერი */
+    font-weight: 700;           /* მუქი ტექსტი */
+    font-size: 18px;            /* ზომა 18px */
+    margin-bottom: 25px;        /* ქვედა დაშორება */
+}
+
+.paragraph2 {
+    color: #BEDF31;             /* ყვითელ-მწვანე ფერი */
+    font-weight: 500;           /* საშუალო სისქე */
+    margin-bottom: 15px;        /* ქვედა დაშორება */
+}
+
+.paragraph3 {
+    color: hsl(218, 22%, 67%);  /* მონაცრისფრო ტექსტი */
+}
+
+.twoDivsTogether {
+    display: flex;              /* შვილები გვერდიგვერდ */
+    flex-direction: row;        /* ჰორიზონტალურად */
+}
+
+.first {
+    background-color: #2BB4B1;  /* მუქი მწვანე-ლურჯი */
+    padding: 30px;              /* შიდა ჰარე */
+    width: 50%;                 /* ნახევარი სიგანე */
+}
+
+.paragraph4 {
+    color: white;               /* თეთრი ტექსტი */
+    font-weight: 700;           /* მუქი */
+    margin-bottom: 15px;        /* ქვედა დაშორება */
+}
+
+h2 {
+    color: white;               /* თეთრი ტექსტი */
+    margin-bottom: 10px;        /* ქვედა დაშორება */
+}
+
+h2 span {
+    color: hsl(179, 61%, 52%);  /* ღია მწვანე-ლურჯი */
+    font-size: 14px;            /* ზომა 14px */
+    vertical-align: middle;     /* ხაზთან ცენტრში */
+}
+
+.paragraph5 {
+    color: white;               /* თეთრი ტექსტი */
+    font-size: 14px;            
+    margin-bottom: 25px;        /* ქვედა დაშორება */
+}
+
+button {
+    background-color: #BEDF31;  
+    border: none;               
+    width: 100%;                
+    padding: 13px;              
+    border-radius: 5px;        
+    color: white;           
+    font-weight: 700;           
+}
+
+.second {
+    background-color: #49BEBD;  /* ღია მწვანე-ლურჯი */
+    padding: 30px;              /* შიდა ჰარე */
+    width: 50%;                 /* ნახევარი სიგანე */
+}
+
+.paragraph6 {
+    color: hsl(204, 43%, 93%);  /* ღია ცისფერი ტექსტი */
+    font-size: 14px;           
+    margin-bottom: 3px;         /* პატარა ქვედა დაშორება */
+}

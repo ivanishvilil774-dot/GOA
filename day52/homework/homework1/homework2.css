@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar {
+    position: relative;
+    width: 300px;
+    height: 8px;
+    background-color: #c0c0c0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-bar::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    background-color: #007bff;
+    border-radius: 4px;
+    animation: move 1.2s infinite ease-in-out;
+}
+
+@keyframes move {
+    0% {
+    width: 0%;
+    }
+    50% {
+    width: 50%;
+    }
+    100% {
+    width: 100%;
+    }
+}

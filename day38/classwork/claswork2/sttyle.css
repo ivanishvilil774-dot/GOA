@@ -1,0 +1,20 @@
+* {
+    box-sizing: border;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    padding: 50px;
+    margin: 10px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1{
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    border-width: 2px;
+}

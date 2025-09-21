@@ -1,0 +1,19 @@
+#myD1{
+    height: 100px;
+    width: 100px;
+    padding: 10px 20px 30px;
+    border: 2px solid red;
+    margin: 10px;
+}
+
+#myD2{
+    height: 100px;
+    width: 100px;
+    padding: 10px 20px 30px;
+    border: 2px solid red;
+    margin: 10px;
+}
+/* padding - შიდა სივრცე content-ისა და border-ის შორის */
+/* border - საზღვარი ელემენტის გარშემო */
+/* margin - გარე სივრცე ელემენტსა და სხვა ელემენტებს შორის */
+/* box modeli არის მოდელი რომელიც ითვლის ელემენტის ზომას (with,higth) */

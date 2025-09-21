@@ -1,0 +1,49 @@
+.card1{
+    border: 3px solid red;
+    width: 300px;
+    height: 200px;
+    box-shadow: 2px 1px 40px;
+    text-align: center;
+    margin: 10px;
+}
+.first2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card4{
+    border: 3px solid red;
+    width: 300px;
+    height: 200px;
+    box-shadow: 2px 1px 40px;
+    text-align: center;
+}
+
+.card2{
+    border: 3px solid red;
+    width: 300px;
+    height: 200px;
+    box-shadow: 2px 1px 40px;
+    text-align: center;
+    margin: 10px;
+}
+
+
+.card3{
+    border: 3px solid red;
+    width: 300px;
+    height: 200px;
+    box-shadow: 2px 1px 40px;
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+.muDIv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

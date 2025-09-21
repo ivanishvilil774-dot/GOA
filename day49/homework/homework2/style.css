@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+}
+
+    /* საერთო სტილი ელემენტებისთვის */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    transition: all 0.5s ease; /* transition გამოიყენება ელემენტის ცვლილებების გასაანიმაციობად */
+}
+
+    /* Scale - ზომის შეცვლა */
+.scale-box:hover {
+    transform: scale(1.5); /* მასშტაბირება 1.5-ჯერ */
+}
+
+    /* Rotate - ბრუნვა */
+.rotate-box:hover {
+    transform: rotate(180deg); /* ბრუნვა საათის ისრის მიმართულებით 180 გრადუსით */
+}
+
+    /* Translate - გადაადგილება */
+.translate-box:hover {
+    transform: translate(-50px, 50px); 
+    /* უარყოფითი მნიშვნელობა x-ზე ნიშნავს მარცხნივ წაწევას,
+         დადებითი მნიშვნელობა y-ზე ნიშნავს ქვემოთ წაწევას */
+    }
+
+    /* Border-radius + scale + კვადრატად გადაქცევა */
+.circle {
+    background-color: #2196F3;
+    border-radius: 50%; /* წრიული ფორმა */
+}
+
+.circle:hover {
+    transform: scale(1.5);
+    border-radius: 0%; /* კვადრატად გადაქცევა */
+}

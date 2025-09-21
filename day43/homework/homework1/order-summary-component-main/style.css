@@ -1,0 +1,106 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        }
+
+        body {
+        font-family: 'Helvetica Neue', sans-serif;
+        background-color: #e0e7ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        }
+
+        .card {
+        background: white;
+        width: 350px;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        }
+
+        .card img.header-img {
+        width: 100%;
+        height: auto;
+        display: block;
+        }
+
+        .card h2 {
+        margin: 20px 0 10px;
+        color: #1f2937;
+        }
+
+        .card p {
+        color: #6b7280;
+        padding: 0 30px;
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        }
+
+        .plan-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f3f4f6;
+        padding: 15px 20px;
+        border-radius: 12px;
+        margin: 0 30px 20px;
+        }
+
+        .plan-info {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        }
+
+        .plan-info img {
+        width: 32px;
+        height: 32px;
+        }
+
+        .plan-text {
+        text-align: left;
+        }
+
+        .plan-text strong {
+        display: block;
+        color: #111827;
+        }
+
+        .plan-text span {
+        color: #6b7280;
+        font-size: 14px;
+        }
+
+        .change-link {
+        color: #4f46e5;
+        font-weight: 600;
+        font-size: 14px;
+        text-decoration: none;
+        }
+
+        .btn {
+        background-color: #4f46e5;
+        color: white;
+        font-weight: bold;
+        padding: 15px;
+        margin: 0 30px 15px;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        width: calc(100% - 60px);
+        box-shadow: 0 8px 20px rgba(79, 70, 229, 0.3);
+        }
+
+        .cancel {
+        background: none;
+        color: #6b7280;
+        font-weight: bold;
+        border: none;
+        margin-bottom: 25px;
+        cursor: pointer;
+        }
