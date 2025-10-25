@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Light Theme */
+body.light {
+    background: white;
+    color: black;
+}
+
+/* Dark Theme */
+body.dark {
+    background: #121212;
+    color: white;
+}

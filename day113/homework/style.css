@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+
+}
+
+#registration{
+        background-color: rgb(87, 86, 86);
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+}
+
+#result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(53, 214, 53);
+    color: white;
+    font-size: 40px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input{
+    height: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+form button{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(53, 214, 53);
+    transition: 0.5s all;
+}
+
+form button:hover{
+    background-color: rgb(26, 130, 26);
+}
