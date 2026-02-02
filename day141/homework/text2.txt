@@ -1,0 +1,7 @@
+Hello, this is line 1
+Streams are useful for big files
+This is line 3 of the file
+Node.js can read files chunk by chunk
+Each line should be logged separately
+Readable streams save memory
+This is the last line
