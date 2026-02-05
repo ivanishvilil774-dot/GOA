@@ -21,20 +21,20 @@ const Comp1 = () => {
 
     return (
         <div>
-        <p>Time: {count}</p>
+            <p>Time: {count}</p>
 
-        <form onSubmit={handleSubmit}>
-            <input
-            type="number"
-            placeholder="Enter milliseconds"
-            required
-            name="timeInput"
-            />
-            <button type="submit">submit</button>
-        </form>
+            <form onSubmit={handleSubmit}>
+                <input
+                type="number"
+                placeholder="Enter milliseconds"
+                required
+                name="timeInput"
+                />
+                <button type="submit">submit</button>
+            </form>
 
-        <button onClick={() => setIntervalTime(0)}>Stop timer</button>
-        <button onClick={() => setCount(0)}>Reset time</button>
+            <button onClick={() => setIntervalTime(0)}>Stop timer</button>
+            <button onClick={() => setCount(0)}>Reset time</button>
         </div>
     );
 };
