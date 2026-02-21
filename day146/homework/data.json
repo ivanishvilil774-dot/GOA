@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "The Pragmatic Programmer",
+        "author": "Andrew Hunt",
+        "genre": "Programming",
+        "price": 39.99
+    },
+    {
+        "id": 2,
+        "title": "Clean Code",
+        "author": "Robert C. Martin",
+        "genre": "Programming",
+        "price": 34.50
+    },
+    {
+        "id": 3,
+        "title": "You Don't Know JS",
+        "author": "Kyle Simpson",
+        "genre": "Programming",
+        "price": 29.99
+    },
+    {
+        "id": 4,
+        "title": "1984",
+        "author": "George Orwell",
+        "genre": "Fiction",
+        "price": 14.99
+    },
+    {
+        "id": 5,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "Fiction",
+        "price": 18.50
+    }
+]
