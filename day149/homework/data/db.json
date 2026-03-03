@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "name": "Laptop",
+        "price": 1200,
+        "category": "Electronics"
+    },
+    {
+        "id": "2",
+        "name": "Headphones",
+        "price": 150,
+        "category": "Electronics"
+    },
+    {
+        "id": "3",
+        "name": "Notebook",
+        "price": 5,
+        "category": "Stationery"
+    },
+    {
+        "id": "4",
+        "name": "Backpack",
+        "price": 60,
+        "category": "Accessories"
+    }
+]
