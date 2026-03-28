@@ -1,0 +1,10 @@
+1. db.people_collection.find()
+2. db.number_collection.find({"number_value_1": {$gt: 500}})
+3. db.number_collection.find({"number_value_1": {$gte: 300}})
+4. db.number_collection.find().sort({"number_value_2": 1})
+4. db.number_collection.find({"number_value_3": {$gt: 0}}).sort({"number_value_2": 1, "number_value_1": -1})
+
+5. db.number_collection.find({}, { number_value_1: 1 })
+6. db.number_collection.find({ number_value_1: { $lt: 500 } },{ _id: 0, text_value: 1 })
+7. db.number_collection.find({ record: { $exists: true } })
+8. db.number_collection.countDocuments({ number_value_1: { $lt: 500 } })
