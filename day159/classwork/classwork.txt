@@ -1,0 +1,2 @@
+1.db.student_collection.updateOne( { name: "fZgFcDEwrU" }, { $push: { tags: "newTag" } })
+db.collection.findAndModify({ query: { name: "Luka" }, update: { $set: { age: 18 } }})

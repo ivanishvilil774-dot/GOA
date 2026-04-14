@@ -1,0 +1,2 @@
+1.db.products.updateOne({ _id: 1 },{ $set: { price: 999 } })
+2. db.products.updateMany({ price: { $gt: 400 } },{ $set: { stock: 0 } })
