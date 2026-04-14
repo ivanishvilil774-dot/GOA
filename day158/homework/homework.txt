@@ -1,0 +1,6 @@
+1. db.movies_collection.insertOne({age: 24, name: "ana", city: "tbilisi"})
+2. db.movies_collection.insertOne({price: 1200, name: "Laptop", inStock: true})
+3. db.movies_collection.insertOne({age: 31, name: "David", address:[], city: Batumi, street: Ruystaveli number: 10})
+4. db.movies_collection.insertOne({age: 31, name: "David", address:[], city: Batumi, street: Ruystaveli number: 10})
+5. db.movies_collection.insertOne({name: "Nika", age: "13"})
+6. db.movies_collection.updateOne({ _id: ObjectId("69de119f67ef6c92e8d06d43") }, { $set: { id: "4" } })

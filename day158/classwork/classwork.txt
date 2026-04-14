@@ -1,0 +1,2 @@
+1. db.movies_collection.insertOne({id: "1", title: "Luka", duration: 156})
+2. db.movies_collection.updateOne({ _id: ObjectId("69de30f7759a6298543ebf31") }, { $set: { title: "gio" } })
