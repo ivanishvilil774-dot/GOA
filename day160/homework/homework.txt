@@ -1,0 +1,31 @@
+1. db.products_collection.deleteOne({ id: 1 })
+
+2. db.products_collection.deleteOne({ price: { $gt: 400 } })
+
+3. db.products_collection.deleteOne({ in_stock: false })
+
+4. db.products_collection.deleteOne({ rating: null })
+
+5. db.products_collection.deleteOne({ tags: "tech" })
+
+6. db.products_collection.deleteMany({ price: { $lt: 50 } })
+
+7. db.products_collection.deleteMany({ in_stock: false })
+
+8. db.products_collection.deleteMany({ rating: { $exists: false } })
+
+9. db.products_collection.deleteMany({ price: { $gt: 300 }, in_stock: false })
+
+10. db.products_collection.deleteMany({ tags: { $size: 0 } })
+
+11. db.products_collection.replaceOne({ id: 2 }, { id: 2, name: "New Product", price: 200 })
+
+12. db.products_collection.replaceOne({ price: { $gt: 300 } }, { name: "Simplified", price: 300 })
+
+13. db.products_collection.replaceOne({ id: 10 }, { id: 10, name: "New Structure", details: { price: 500, category: "tech" } })
+
+14. db.products_collection.replaceOne({ id: 3 }, { id: 3, name: "Same Name", price: 999 })
+
+15. db.products_collection.replaceOne({ id: 999 }, { id: 999, name: "New", price: 100 })
+
+16. db.products_collection.replaceOne({ id: 999 }, { id: 999, name: "New", price: 100 }, { upsert: true })

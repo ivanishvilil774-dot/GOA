@@ -1,0 +1,3 @@
+1. db.products_collection.deleteOne({_id: 1})
+2. db.products_collection.deleteMany({ rating: { $gt: 4.1 } })
+3. db.student_collection.deleteOne({ name: "TWYaqrlxNl" }, { name: "jaqfgrqw", price: 999, id: 4 })
