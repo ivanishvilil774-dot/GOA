@@ -1,0 +1,3 @@
+1. db.movies_collection.createIndex({cast: 1, description: -1})
+1. db.movies_collection.createIndex({title: 1, description: 1})
+3. db.movies_collection.createIndex({cast: 1, genres: -1})

@@ -15,9 +15,6 @@ router.get("/", async (req, res) => {
     }
 });
 
-/* =========================
-   GET ITEM BY ID
-========================= */
 router.get("/:id", async (req, res) => {
     try {
         const items = await readFile(dbPath);
@@ -50,7 +47,7 @@ router.post("/", async (req, res) => {
         const items = await readFile(dbPath);
 
         const newItem = {
-            id: Date.now().toString(), // unique id
+            id: Date.now().toString(),
             name,
             price,
         };
@@ -64,13 +61,10 @@ router.post("/", async (req, res) => {
     }
 });
 
-/* =========================
-   UPDATE ITEM
-========================= */
 router.put("/:id", async (req, res) => {
     try {
         const items = await readFile(dbPath);
-        const index = items.findIndex((i) => i.id === req.params.id);
+        const index = items.findIndex(i => i.id === req.params.id);
 
         if (index === -1) {
             return res.status(404).json({ message: "Item not found" });
@@ -79,7 +73,7 @@ router.put("/:id", async (req, res) => {
         const updatedItem = {
             ...items[index],
             ...req.body,
-            id: items[index].id, // prevent id overwrite
+            id: items[index].id
         };
 
         items[index] = updatedItem;
@@ -92,15 +86,10 @@ router.put("/:id", async (req, res) => {
     }
 });
 
-/* =========================
-   DELETE ITEM
-========================= */
 router.delete("/:id", async (req, res) => {
     try {
         const items = await readFile(dbPath);
-        const filteredItems = items.filter(
-            (i) => i.id !== req.params.id
-        );
+        const filteredItems = items.filter(i => i.id !== req.params.id);
 
         if (filteredItems.length === items.length) {
             return res.status(404).json({ message: "Item not found" });
